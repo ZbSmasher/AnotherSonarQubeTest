@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tqs.MealsBookingServiceTest" time="0.218" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tqs.MealsBookingServiceTest" time="0.386" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals\target\test-classes;C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals\target\classes;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.4\junit-jupiter-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.4\junit-jupiter-api-5.13.4.jar;C:\Users\alexa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-commons\1.13.4\junit-platform-commons-1.13.4.jar;C:\Users\alexa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.4\junit-jupiter-params-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.4\junit-jupiter-engine-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-engine\1.13.4\junit-platform-engine-1.13.4.jar;C:\Users\alexa\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;"/>
+    <property name="java.class.path" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1\target\test-classes;C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1\target\classes;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.4\junit-jupiter-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.4\junit-jupiter-api-5.13.4.jar;C:\Users\alexa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-commons\1.13.4\junit-platform-commons-1.13.4.jar;C:\Users\alexa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.4\junit-jupiter-params-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.4\junit-jupiter-engine-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-engine\1.13.4\junit-platform-engine-1.13.4.jar;C:\Users\alexa\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\alexa\AppData\Local\Temp\surefire3300045493605110624\surefirebooter-20250926010535587_3.jar C:\Users\alexa\AppData\Local\Temp\surefire3300045493605110624 2025-09-26T01-05-35_417-jvmRun1 surefire-20250926010535587_1tmp surefire_0-20250926010535587_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\alexa\AppData\Local\Temp\surefire1530248630111661465\surefirebooter-20251113110016017_3.jar C:\Users\alexa\AppData\Local\Temp\surefire1530248630111661465 2025-11-13T11-00-15_841-jvmRun1 surefire-20251113110016017_1tmp surefire_0-20251113110016017_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals\target\test-classes;C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals\target\classes;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.4\junit-jupiter-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.4\junit-jupiter-api-5.13.4.jar;C:\Users\alexa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-commons\1.13.4\junit-platform-commons-1.13.4.jar;C:\Users\alexa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.4\junit-jupiter-params-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.4\junit-jupiter-engine-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-engine\1.13.4\junit-platform-engine-1.13.4.jar;C:\Users\alexa\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1\target\test-classes;C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1\target\classes;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.4\junit-jupiter-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.4\junit-jupiter-api-5.13.4.jar;C:\Users\alexa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-commons\1.13.4\junit-platform-commons-1.13.4.jar;C:\Users\alexa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.4\junit-jupiter-params-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.4\junit-jupiter-engine-5.13.4.jar;C:\Users\alexa\.m2\repository\org\junit\platform\junit-platform-engine\1.13.4\junit-platform-engine-1.13.4.jar;C:\Users\alexa\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\alexa\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\alexa"/>
     <property name="user.language" value="pt"/>
@@ -25,17 +25,18 @@
     <property name="java.version.date" value="2025-07-15"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals"/>
+    <property name="basedir" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alexa\AppData\Local\Temp\surefire3300045493605110624\surefirebooter-20250926010535587_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alexa\AppData\Local\Temp\surefire1530248630111661465\surefirebooter-20251113110016017_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
     <property name="user.name" value="alexa"/>
     <property name="stdout.encoding" value="Cp1252"/>
+    <property name="sonar" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -46,12 +47,12 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\alexa\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.8"/>
-    <property name="user.dir" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\Guiao1\meals"/>
+    <property name="user.dir" value="C:\Users\alexa\Desktop\universidadeA\CoisasTQS\mealslab1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Users\alexa\Desktop\64bit\bin;C:\MinGW\bin;C:\Program Files (x86)\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\alexa\Desktop\64bit\apache-maven-3.9.11\bin;;%JAVA_HOME%\bin;C:\Users\alexa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Users\alexa\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\alexa\AppData\Local\Programs\Python\Python311\;C:\Users\alexa\AppData\Local\Microsoft\WindowsApps;C:\Users\alexa\AppData\Local\GitHubDesktop\bin;C:\Users\alexa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alexa\.dotnet\tools;c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Users\alexa\Desktop\64bit\bin;C:\MinGW\bin;C:\Program Files (x86)\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\alexa\Desktop\64bit\apache-maven-3.9.11\bin;;%JAVA_HOME%\bin;C:\Users\alexa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Users\alexa\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\alexa\AppData\Local\Programs\Python\Python311\;C:\Users\alexa\AppData\Local\Microsoft\WindowsApps;C:\Users\alexa\AppData\Local\GitHubDesktop\bin;C:\Users\alexa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alexa\.dotnet\tools;c:\Users\alexa\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
@@ -59,12 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="differentShiftAllowed" classname="tqs.MealsBookingServiceTest" time="0.129"/>
-  <testcase name="checkInOnceOnly" classname="tqs.MealsBookingServiceTest" time="0.009"/>
-  <testcase name="capacityEnforced" classname="tqs.MealsBookingServiceTest" time="0.006"/>
-  <testcase name="noDoubleBookingSameShift" classname="tqs.MealsBookingServiceTest" time="0.003"/>
-  <testcase name="cancelFreesSlot" classname="tqs.MealsBookingServiceTest" time="0.003"/>
+  <testcase name="differentShiftAllowed" classname="tqs.MealsBookingServiceTest" time="0.26"/>
+  <testcase name="checkInOnceOnly" classname="tqs.MealsBookingServiceTest" time="0.013"/>
+  <testcase name="capacityEnforced" classname="tqs.MealsBookingServiceTest" time="0.004"/>
+  <testcase name="noDoubleBookingSameShift" classname="tqs.MealsBookingServiceTest" time="0.006"/>
+  <testcase name="cancelFreesSlot" classname="tqs.MealsBookingServiceTest" time="0.004"/>
   <testcase name="cancelPreventsUse" classname="tqs.MealsBookingServiceTest" time="0.003"/>
-  <testcase name="invalidTokenGuards" classname="tqs.MealsBookingServiceTest" time="0.004"/>
+  <testcase name="invalidTokenGuards" classname="tqs.MealsBookingServiceTest" time="0.003"/>
   <testcase name="bookAndGet" classname="tqs.MealsBookingServiceTest" time="0.002"/>
 </testsuite>
