@@ -12,6 +12,11 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Tell SonarCloud where the JaCoCo XML report will be -->
+        <sonar.coverage.jacoco.xmlReportPaths>
+            ${project.basedir}/target/site/jacoco/jacoco.xml
+        </sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <dependencies>
@@ -23,8 +28,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- using SLF4J logger; scope is not defined, so it is included in tests and production;
-        additional config expected in resources the folder -->
+        <!-- SLF4J + Logback for logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -35,21 +39,22 @@
             <artifactId>logback-classic</artifactId>
             <version>1.5.18</version>
         </dependency>
-
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Run tests with JUnit 5 -->
             <plugin>
-                <!-- Lock a recent version of the Surefire plugin to run the tests with JUnit 5 -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.4</version>
             </plugin>
+
+            <!-- JaCoCo for coverage: exec + XML report -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.10</version> <!-- Updated version -->
+                <version>0.8.10</version>
                 <executions>
                     <execution>
                         <goals>
@@ -58,12 +63,20 @@
                     </execution>
                     <execution>
                         <id>report</id>
+                        <!-- after tests, generate XML report at target/site/jacoco/jacoco.xml -->
                         <phase>test</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <!-- Sonar Maven plugin with explicit version -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>5.3.0.6276</version>
             </plugin>
         </plugins>
     </build>
